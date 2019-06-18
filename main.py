@@ -20,10 +20,10 @@ clock = pygame.time.Clock()
 # ---------------------------------------- PRE-GAME SETUP
 
 # init the game
-pygame.init()
+game.init()
 
 # make game screen dimensions according to setup
-screen = pygame.display.set_mode([WIDTH, HEIGHT])
+screen = game.display.set_mode([WIDTH, HEIGHT])
 
 # set game caption to specifed value
 pygame.display.set_caption(GAME_TITLE)
@@ -32,3 +32,5 @@ pygame.display.set_caption(GAME_TITLE)
 # ---------------------------------------- MAIN
 
 pygame.quit()
+
+# hi this is a test 
