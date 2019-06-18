@@ -13,6 +13,8 @@ HEIGHT = 500 # pixels
 # title of the game
 GAME_TITLE = 'Our Pacman Game'
 
+clock = pygame.time.Clock()
+
 
 # ---------------------------------------- PRE-GAME SETUP
 
